@@ -56,20 +56,20 @@ If you're working with GitHub, you may also want to use pull requests to propose
 # 2. FORKS
 Forking a repository on GitHub is a way to create your own copy of someone else's repository. This copy is entirely separate from the original repository, allowing you to make changes and contributions without affecting the original project. Here's how you can fork a repository on GitHub:
 
-    Navigate to the Repository:
-    Go to the GitHub repository that you want to fork. The URL typically looks like `https://github.com/username/repository`.
+Navigate to the Repository:
+Go to the GitHub repository that you want to fork. The URL typically looks like `https://github.com/username/repository`.
 
-    Fork the Repository:
-    In the top-right corner of the repository page, you'll find the "Fork" button. Click on it.
+Fork the Repository:
+In the top-right corner of the repository page, you'll find the "Fork" button. Click on it.
 
-    Choose a Destination:
-    GitHub will prompt you to choose where to fork the repository. Select your own GitHub account or an organization you're a part of.
+Choose a Destination:
+GitHub will prompt you to choose where to fork the repository. Select your own GitHub account or an organization you're a part of.
 
-    Wait for Forking to Complete:
-    GitHub will create a fork of the repository for you. This process may take a moment.
+Wait for Forking to Complete:
+GitHub will create a fork of the repository for you. This process may take a moment.
 
-    Clone Your Fork:
-    After forking, you'll want to work on the code locally on your machine. Clone your forked repository using the following command in your terminal:
+Clone Your Fork:
+After forking, you'll want to work on the code locally on your machine. Clone your forked repository using the following command in your terminal:
 
 `git clone https://github.com/your-username/repository.git`
 
@@ -80,7 +80,7 @@ You might want to configure an upstream remote to keep your fork in sync with th
 
 `git remote add upstream https://github.com/original-username/repository.git`
 
-    Replace original-username with the username of the owner of the original repository.
+Replace original-username with the username of the owner of the original repository.
 
 Now, you have your own copy (fork) of the GitHub repository, and you can make changes, create branches, and push them back to your fork. If you plan to contribute changes back to the original repository, you can do so through pull requests.
 
