@@ -46,7 +46,7 @@ If you've finished working on a branch and want to delete it, you can use:
 
 If the branch contains changes that haven't been merged, you may need to force delete it using:
 
-    `git branch -D branch_name`
+`git branch -D branch_name`
 
 Remember that these commands assume you have a basic understanding of Git. Always be cautious when merging or deleting branches, especially if they contain unmerged changes.
 
