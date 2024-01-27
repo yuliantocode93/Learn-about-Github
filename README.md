@@ -53,7 +53,7 @@ Remember that these commands assume you have a basic understanding of Git. Alway
 If you're working with GitHub, you may also want to use pull requests to propose changes from one branch to another, facilitating code review and collaboration.
 
 
-# 2. FORKS
+# 2. FORK
 Forking a repository on GitHub is a way to create your own copy of someone else's repository. This copy is entirely separate from the original repository, allowing you to make changes and contributions without affecting the original project. Here's how you can fork a repository on GitHub:
 
 Navigate to the Repository:
@@ -70,7 +70,6 @@ GitHub will create a fork of the repository for you. This process may take a mom
 
 Clone Your Fork:
 After forking, you'll want to work on the code locally on your machine. Clone your forked repository using the following command in your terminal:
-
 `git clone https://github.com/your-username/repository.git`
 
 Replace your-username with your GitHub username and repository with the name of the repository.
